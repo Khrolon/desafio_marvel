@@ -33,7 +33,7 @@ class _SearchCharactersState extends State<SearchCharacters> {
         mainAxisSize: MainAxisSize.min,
         children: [
           SearchWidget(
-            hintText: "Procurar",
+            hintText: "search".tr,
             onChanged: (text) {
               text == ''
                   ? widget.controller.searchCharacterList.clear()
